@@ -1,3 +1,4 @@
+var path = require('path');
 var utils = require('./utils')
 var webpack = require('webpack')
 var config = require('../config')
@@ -27,7 +28,7 @@ module.exports = merge(baseWebpackConfig, {
     // https://github.com/ampedandwired/html-webpack-plugin
     new HtmlWebpackPlugin({
       filename: 'index.html',
-      template: 'index.html',
+      template: 'src/index.html',
       inject: true
     }),
     new FriendlyErrorsPlugin()

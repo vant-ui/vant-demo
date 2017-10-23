@@ -62,9 +62,5 @@
   "engines": {
     "node": ">= 4.0.0",
     "npm": ">= 3.0.0"
-  },
-  "browserslist": [
-    "Android >= 4.0",
-    "iOS >= 7"
-  ]
+  }
 }
