@@ -74,6 +74,7 @@ export default {
       const count = this.checkedGoods.length;
       return '结算' + (count ? `(${count})` : '');
     },
+
     totalPrice() {
       return this.goods.reduce((total, item) => total + (this.checkedGoods.indexOf(item.id) !== -1 ? item.price : 0), 0);
     }

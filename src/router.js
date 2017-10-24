@@ -3,6 +3,7 @@ import Router from 'vue-router';
 
 const User = r => require.ensure([], () => r(require('./view/user')), 'user');
 const Cart = r => require.ensure([], () => r(require('./view/cart')), 'cart');
+const Goods = r => require.ensure([], () => r(require('./view/goods')), 'goods');
 
 Vue.use(Router);
 
@@ -23,6 +24,13 @@ const routes = [
     component: Cart,
     meta: {
       title: '购物车'
+    }
+  },
+  {
+    name: 'goods',
+    component: Goods,
+    meta: {
+      title: '商品详情'
     }
   }
 ];
