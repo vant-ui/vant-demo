@@ -38,26 +38,28 @@ export default {
 };
 </script>
 
-<style>
-.user-poster {
-  width: 7.5rem;
-  height: 4rem;
-  display: block;
-}
+<style lang="less">
+.user {
+  &-poster {
+    width: 7.5rem;
+    height: 4rem;
+    display: block;
+  }
 
-.user-group {
-  margin-bottom: .3rem;
-}
+  &-group {
+    margin-bottom: .3rem;
+  }
 
-.user-links {
-  padding: 15px 0;
-  font-size: 12px;
-  text-align: center;
-  background-color: #fff;
-}
+  &-links {
+    padding: 15px 0;
+    font-size: 12px;
+    text-align: center;
+    background-color: #fff;
 
-.user-links .van-icon {
-  display: block;
-  font-size: 24px;
+    .van-icon {
+      display: block;
+      font-size: 24px;
+    }
+  }
 }
 </style>

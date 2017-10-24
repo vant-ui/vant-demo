@@ -2,25 +2,32 @@ import Vue from 'vue';
 import Router from 'vue-router';
 
 const User = r => require.ensure([], () => r(require('./view/user')), 'user');
+const Cart = r => require.ensure([], () => r(require('./view/cart')), 'cart');
 
 Vue.use(Router);
 
 const routes = [
   {
     path: '*',
-    redirect: '/index'
+    redirect: '/user'
   },
   {
     name: 'user',
-    path: '/',
     component: User,
     meta: {
       title: '会员中心'
     }
+  },
+  {
+    name: 'cart',
+    component: Cart,
+    meta: {
+      title: '购物车'
+    }
   }
 ];
 
-// auto add route path
+// add route path
 routes.forEach(route => {
   route.path = route.path || '/' + (route.name || '');
 });
