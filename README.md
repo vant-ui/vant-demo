@@ -3,7 +3,7 @@ Vant 示例页面汇总。
 
 
 ## 示例
-<img src="https://img.yzcdn.cn/public_files/2017/10/25/88a2c26ecea47bb01388ff5bfa4306ff.png" alt="demos" width="600" height="347"/>
+<img src="https://img.yzcdn.cn/public_files/2017/11/16/4b7eb956ba7d30d374a2310124bdb5fe.png" alt="demos" width="600" height="347"/>
 
 ## 开发
 
