@@ -1,6 +1,6 @@
 <template>
   <div class="goods">
-    <van-swipe class="goods-swipe">
+    <van-swipe class="goods-swipe" :autoplay="3000">
       <van-swipe-item v-for="thumb in goods.thumb" :key="thumb">
         <img :src="thumb" >
       </van-swipe-item>

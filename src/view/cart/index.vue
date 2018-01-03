@@ -88,14 +88,21 @@ export default {
   background-color: #fff;
 
   &__item {
+    position: relative;
     background-color: #fafafa;
 
     .van-checkbox__input {
-      margin: 40px 0 0 10px;
+      top: 50%;
+      left: 15px;
+      margin-top: -10px;
+      position: absolute;
     }
 
     .van-checkbox__label {
-      margin-left: 20px;
+      margin: 0;
+      width: 100%;
+      padding-left: 35px;
+      box-sizing: border-box;
     }
 
     .van-card__price {
