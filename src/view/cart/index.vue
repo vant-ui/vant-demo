@@ -19,7 +19,7 @@
     <van-submit-bar
       :price="totalPrice"
       :disabled="!checkedGoods.length"
-      :buttonText="submitBarText"
+      :button-text="submitBarText"
     />
   </div>
 </template>
