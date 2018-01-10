@@ -18,17 +18,17 @@
     </van-cell-group>
 
     <van-cell-group class="goods-cell-group">
-      <van-cell value="进入店铺" icon="shop" isLink>
+      <van-cell value="进入店铺" icon="shop" is-link>
         <template slot="title">
           <span class="van-cell-text">有赞的店</span>
           <van-tag type="danger">官方</van-tag>
         </template>
       </van-cell>
-      <van-cell title="线下门店" icon="location" isLink></van-cell>
+      <van-cell title="线下门店" icon="location" is-link />
     </van-cell-group>
 
     <van-cell-group class="goods-cell-group">
-      <van-cell title="查看商品详情" isLink></van-cell>
+      <van-cell title="查看商品详情" is-link />
     </van-cell-group>
 
     <van-goods-action>
@@ -122,7 +122,7 @@ export default {
   &-express {
     color: #999;
     font-size: 12px;
-    padding: 5px 15px 5px 0;
+    padding: 5px 15px;
   }
 
   &-cell-group {
