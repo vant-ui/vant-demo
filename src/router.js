@@ -1,34 +1,30 @@
 import Vue from 'vue';
 import Router from 'vue-router';
 
-const User = r => require.ensure([], () => r(require('./view/user')), 'user');
-const Cart = r => require.ensure([], () => r(require('./view/cart')), 'cart');
-const Goods = r => require.ensure([], () => r(require('./view/goods')), 'goods');
-
 Vue.use(Router);
 
 const routes = [
   {
     path: '*',
-    redirect: '/user'
+    redirect: '/goods'
   },
   {
     name: 'user',
-    component: User,
+    component: () => import('./view/user'),
     meta: {
       title: '会员中心'
     }
   },
   {
     name: 'cart',
-    component: Cart,
+    component: () => import('./view/cart'),
     meta: {
       title: '购物车'
     }
   },
   {
     name: 'goods',
-    component: Goods,
+    component: () => import('./view/goods'),
     meta: {
       title: '商品详情'
     }

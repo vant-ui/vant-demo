@@ -20,12 +20,13 @@
       :price="totalPrice"
       :disabled="!checkedGoods.length"
       :button-text="submitBarText"
+      @submit="onSubmit"
     />
   </div>
 </template>
 
 <script>
-import { Checkbox, CheckboxGroup, Card, SubmitBar } from 'vant';
+import { Checkbox, CheckboxGroup, Card, SubmitBar, Toast } from 'vant';
 
 export default {
   components: {
@@ -63,12 +64,6 @@ export default {
     };
   },
 
-  methods: {
-    formatPrice(price) {
-      return (price / 100).toFixed(2);
-    }
-  },
-
   computed: {
     submitBarText() {
       const count = this.checkedGoods.length;
@@ -77,6 +72,16 @@ export default {
 
     totalPrice() {
       return this.goods.reduce((total, item) => total + (this.checkedGoods.indexOf(item.id) !== -1 ? item.price : 0), 0);
+    }
+  },
+
+  methods: {
+    formatPrice(price) {
+      return (price / 100).toFixed(2);
+    },
+
+    onSubmit() {
+      Toast('点击结算');
     }
   }
 };
@@ -91,18 +96,18 @@ export default {
     position: relative;
     background-color: #fafafa;
 
-    .van-checkbox__input {
-      top: 50%;
-      left: 15px;
-      margin-top: -10px;
-      position: absolute;
+    .van-checkbox__label {
+      width: 100%;
+      padding: 0 10px 0 15px;
+      box-sizing: border-box;
     }
 
-    .van-checkbox__label {
-      margin: 0;
-      width: 100%;
-      padding-left: 35px;
-      box-sizing: border-box;
+    .van-checkbox__icon {
+      top: 50%;
+      left: 10px;
+      z-index: 1;
+      position: absolute;
+      margin-top: -10px;
     }
 
     .van-card__price {
