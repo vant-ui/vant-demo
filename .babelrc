@@ -1,11 +1,12 @@
 {
   "presets": [
-    ["env", {
-      "modules": false,
-      "targets": {
-        "browsers": ["> 1%", "last 2 versions", "not ie <= 8"]
+    [
+      "env",
+      {
+        "modules": false,
+        "loose": true
       }
-    }],
+    ],
     "stage-2"
   ],
   "plugins": [
