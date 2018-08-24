@@ -1,3 +1,4 @@
 module.exports = {
-  outputDir: 'docs'
+  outputDir: 'docs',
+  baseUrl: 'https://youzan.github.io/vant-demo'
 };
