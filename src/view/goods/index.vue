@@ -21,7 +21,7 @@
       <van-cell value="进入店铺" icon="shop" is-link @click="sorry">
         <template slot="title">
           <span class="van-cell-text">有赞的店</span>
-          <van-tag type="danger">官方</van-tag>
+          <van-tag class="goods-tag" type="danger">官方</van-tag>
         </template>
       </van-cell>
       <van-cell title="线下门店" icon="location" is-link @click="sorry" />
@@ -140,6 +140,10 @@ export default {
     .van-cell__value {
       color: #999;
     }
+  }
+
+  &-tag {
+    margin-left: 5px;
   }
 }
 </style>
