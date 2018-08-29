@@ -1,4 +1,4 @@
 module.exports = {
   outputDir: 'docs',
-  baseUrl: 'https://youzan.github.io/vant-demo'
+  baseUrl: process.env.NODE_ENV === 'production' ? '/vant-demo/' : '/'
 };
