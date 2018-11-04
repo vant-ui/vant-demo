@@ -8,9 +8,7 @@ module.exports = {
     loaderOptions: {
       postcss: {
         plugins: [
-          autoprefixer({
-            browsers: ['Android >= 4.0', 'iOS >= 7']
-          }),
+          autoprefixer(),
           pxtorem({
             rootValue: 37.5,
             propList: ['*']
