@@ -49,13 +49,12 @@ export default {
 <style lang="less">
 .user {
   &-poster {
-    width: 7.5rem;
-    height: 4rem;
+    width: 100%;
     display: block;
   }
 
   &-group {
-    margin-bottom: .3rem;
+    margin-bottom: 15px;
   }
 
   &-links {

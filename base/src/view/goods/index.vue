@@ -114,8 +114,7 @@ export default {
 
   &-swipe {
     img {
-      width: 7.5rem;
-      height: 7.5rem;
+      width: 100%;
       display: block;
     }
   }
