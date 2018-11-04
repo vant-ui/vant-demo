@@ -10,8 +10,7 @@
   },
   "dependencies": {
     "amfe-flexible": "^2.2.1",
-    "postcss-pxtorem": "^4.0.1",
-    "vant": "^1.2.0",
+    "vant": "^1.4.1",
     "vue": "^2.5.17",
     "vue-router": "^3.0.1"
   },
@@ -20,6 +19,7 @@
     "@vue/cli-plugin-eslint": "^3.0.1",
     "@vue/cli-service": "^3.0.1",
     "babel-plugin-import": "^1.8.0",
+    "postcss-pxtorem": "^4.0.1",
     "less": "^3.8.1",
     "less-loader": "^4.1.0",
     "vue-template-compiler": "^2.5.17"

@@ -9,7 +9,7 @@
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
-    "vant": "^1.2.0",
+    "vant": "^1.4.1",
     "vue": "^2.5.17",
     "vue-router": "^3.0.1"
   },
