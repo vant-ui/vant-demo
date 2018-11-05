@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "Collection of vant demos.",
   "author": "陈嘉涵 <chenjiahan@youzan.com>",
+  "license": "MIT",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
