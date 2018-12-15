@@ -98,6 +98,7 @@ export default {
 
     .van-checkbox__label {
       width: 100%;
+      height: auto; // temp
       padding: 0 10px 0 15px;
       box-sizing: border-box;
     }
