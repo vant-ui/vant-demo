@@ -23,6 +23,9 @@ theme 工程在 base 工程的基础上增加了自定义主题色的配置。
 ## 开发命令
 
 ``` bash
+# 进入base目录
+cd base
+
 # 安装依赖
 npm install
 
