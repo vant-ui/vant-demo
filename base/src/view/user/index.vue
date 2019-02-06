@@ -7,16 +7,16 @@
         待付款
       </van-col>
       <van-col span="6">
-        <van-icon name="pending-orders" />
+        <van-icon name="records" />
         待接单
       </van-col>
       <van-col span="6">
-        <van-icon name="pending-deliver" />
+        <van-icon name="tosend" />
         待发货
       </van-col>
       <van-col span="6">
         <van-icon name="logistics" />
-        待发货
+        已发货
       </van-col>
     </van-row>
 
@@ -25,9 +25,9 @@
     </van-cell-group>
 
     <van-cell-group>
-      <van-cell icon="exchange" title="我的积分" is-link />
-      <van-cell icon="gold-coin" title="我的优惠券" is-link />
-      <van-cell icon="gift" title="我收到的礼物" is-link />
+      <van-cell icon="points" title="我的积分" is-link />
+      <van-cell icon="gold-coin-o" title="我的优惠券" is-link />
+      <van-cell icon="gift-o" title="我收到的礼物" is-link />
     </van-cell-group>
   </div>
 </template>

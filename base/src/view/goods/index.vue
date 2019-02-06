@@ -18,13 +18,13 @@
     </van-cell-group>
 
     <van-cell-group class="goods-cell-group">
-      <van-cell value="进入店铺" icon="shop" is-link @click="sorry">
+      <van-cell value="进入店铺" icon="shop-o" is-link @click="sorry">
         <template slot="title">
           <span class="van-cell-text">有赞的店</span>
           <van-tag class="goods-tag" type="danger">官方</van-tag>
         </template>
       </van-cell>
-      <van-cell title="线下门店" icon="location" is-link @click="sorry" />
+      <van-cell title="线下门店" icon="location-o" is-link @click="sorry" />
     </van-cell-group>
 
     <van-cell-group class="goods-cell-group">
@@ -32,10 +32,10 @@
     </van-cell-group>
 
     <van-goods-action>
-      <van-goods-action-mini-btn icon="chat" @click="sorry">
+      <van-goods-action-mini-btn icon="chat-o" @click="sorry">
         客服
       </van-goods-action-mini-btn>
-      <van-goods-action-mini-btn icon="cart" @click="onClickCart">
+      <van-goods-action-mini-btn icon="cart-o" @click="onClickCart">
         购物车
       </van-goods-action-mini-btn>
       <van-goods-action-big-btn @click="sorry">
