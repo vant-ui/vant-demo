@@ -50,6 +50,7 @@ export default {
 .user {
   &-poster {
     width: 100%;
+    height: 53vw;
     display: block;
   }
 

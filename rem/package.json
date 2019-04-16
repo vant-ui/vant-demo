@@ -11,19 +11,19 @@
   },
   "dependencies": {
     "amfe-flexible": "^2.2.1",
-    "vant": "^1.6.1",
-    "vue": "^2.6.2",
-    "vue-router": "^3.0.1"
+    "vant": "^1.6.14",
+    "vue": "^2.6.10",
+    "vue-router": "^3.0.5"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "^3.4.0",
     "@vue/cli-plugin-eslint": "^3.4.0",
     "@vue/cli-service": "^3.4.0",
     "babel-plugin-import": "^1.8.0",
-    "postcss-pxtorem": "^4.0.1",
     "less": "^3.8.1",
     "less-loader": "^4.1.0",
-    "vue-template-compiler": "^2.6.2"
+    "postcss-pxtorem": "^4.0.1",
+    "vue-template-compiler": "^2.6.10"
   },
   "eslintConfig": {
     "root": true,
