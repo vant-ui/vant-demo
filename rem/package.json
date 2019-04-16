@@ -2,7 +2,7 @@
   "name": "vant-demo",
   "version": "1.0.0",
   "description": "Collection of vant demos.",
-  "author": "陈嘉涵 <chenjiahan@youzan.com>",
+  "author": "neverland <chenjiahan@neverl.com>",
   "license": "MIT",
   "scripts": {
     "serve": "vue-cli-service serve",
