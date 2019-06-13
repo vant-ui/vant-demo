@@ -41,7 +41,7 @@ module.exports = {
      */
     extend(config, ctx) {},
     babel: {
-      plugins: [['import', { libraryName: 'vant', libraryDirectory: 'es' }, 'vant']]
+      plugins: [['import', { libraryName: 'vant' }, 'vant']]
     }
   }
 }
