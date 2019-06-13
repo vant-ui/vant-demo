@@ -4,10 +4,6 @@
   </div>
 </template>
 
-<script>
-import '../components'
-</script>
-
 <style>
 .container {
   margin: 0 auto;

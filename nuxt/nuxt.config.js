@@ -27,7 +27,7 @@ module.exports = {
   /*
    ** Plugins to load before mounting the App
    */
-  plugins: [],
+  plugins: ['@/plugins/vant'],
   /*
    ** Nuxt.js modules
    */
@@ -41,7 +41,7 @@ module.exports = {
      */
     extend(config, ctx) {},
     babel: {
-      plugins: [['import', { libraryName: 'vant' }, 'vant']]
+      plugins: [['import', { libraryName: 'vant', libraryDirectory: 'es' }, 'vant']]
     }
   }
 }
