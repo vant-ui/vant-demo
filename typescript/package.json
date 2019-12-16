@@ -8,13 +8,14 @@
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
+    "core-js": "^3.4.3",
     "vant": "^2.2.0",
     "vue": "^2.6.10"
   },
   "devDependencies": {
-    "@vue/cli-plugin-babel": "^3.8.0",
-    "@vue/cli-plugin-typescript": "^3.8.1",
-    "@vue/cli-service": "^3.8.3",
+    "@vue/cli-plugin-babel": "^4.1.1",
+    "@vue/cli-plugin-typescript": "^4.1.1",
+    "@vue/cli-service": "^4.1.1",
     "less": "^3.9.0",
     "less-loader": "^5.0.0",
     "ts-import-plugin": "^1.5.5",
