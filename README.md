@@ -1,5 +1,6 @@
 # Vant-demo
-Vant 示例工程，基于 vue-cli 3 搭建。
+
+Vant 示例工程，基于 Vue Cli 4 搭建。
 
 ## 目录
 
@@ -31,6 +32,10 @@ theme 工程在 base 工程的基础上增加了自定义主题色的配置。
 ### typescript
 
 基于 typescript 的工程，使用 ts-import-plugin 实现组件按需引入。
+
+### vant-cli
+
+Vant Cli 的示例工程，示范通过 Vant Cli 快速搭建一套组件库。
 
 
 ## 预览
