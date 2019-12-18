@@ -8,6 +8,8 @@ Vant 示例工程，基于 Vue Cli 4 搭建。
 
 cdn 目录下包含了通过 CDN 引入 Vant 的示例，在浏览器内打开 cdn/index.html 即可查看效果。
 
+> 技术栈：Vue、Vant
+
 ### base
 
 base 工程示范了如何用 Vant 搭建几个简单的电商页面，包含如下功能：
@@ -17,25 +19,37 @@ base 工程示范了如何用 Vant 搭建几个简单的电商页面，包含如
 - 组件按需引入
 - 视图异步加载
 
+> 技术栈：Vue、Vue Cli、Vue Router、Vant
+
 ### rem
 
 rem 工程在 base 工程的基础上增加了移动端 rem 适配的配置。
+
+> 技术栈：Vue、Vue Cli、Vue Router、Vant
 
 ### viewport
 
 viewport 工程在 base 工程的基础上增加了移动端 vw/vh 适配的配置。
 
+> 技术栈：Vue、Vue Cli、Vue Router、Vant
+
 ### theme
 
 theme 工程在 base 工程的基础上增加了自定义主题色的配置。
+
+> 技术栈：Vue、Vue Cli、Vue Router、Vant
 
 ### typescript
 
 基于 typescript 的工程，使用 ts-import-plugin 实现组件按需引入。
 
+> 技术栈：Vue、Vue Cli、Vue Router、Vant、TypeScript
+
 ### vant-cli
 
-Vant Cli 的示例工程，示范通过 Vant Cli 快速搭建一套组件库。
+Vant Cli 的基础示例工程，示范通过 Vant Cli 快速搭建一套组件库。
+
+> 技术栈：Vue、Vant Cli
 
 
 ## 预览
