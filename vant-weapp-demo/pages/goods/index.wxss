@@ -1,0 +1,44 @@
+
+.goods-img {
+  width: 100%;
+  display: block;
+}
+
+.goods-message .van-cell__title {
+  font-size: 16px;
+}
+
+.goods-message .van-cell__label {
+  color: #f44;
+}
+
+.goods-express {
+  color: #999;
+  font-size: 12px;
+}
+
+.goods-express .van-cell {
+  color: #999;
+  font-size: 12px;
+  padding: 5px 15px;
+}
+
+.goods-express .van-col {
+  text-align: left;
+}
+
+.goods-cell-group {
+  margin: 0 0;
+}
+
+.goods-cell-group .van-cell__value {
+  color: #999;
+}
+
+.goods-tag {
+  margin-left: 5px;
+}
+
+.goods-action {
+  position: relative!important;
+}

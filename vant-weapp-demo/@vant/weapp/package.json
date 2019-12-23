@@ -1,0 +1,126 @@
+{
+  "_args": [
+    [
+      "@vant/weapp@1.0.0",
+      "/Users/chensen/Workspace/youzan/vant-weapp-demo"
+    ]
+  ],
+  "_from": "@vant/weapp@1.0.0",
+  "_id": "@vant/weapp@1.0.0",
+  "_inBundle": false,
+  "_integrity": "sha1-ewRufWz/0so3gVeYgQ8fueCTdZY=",
+  "_location": "/@vant/weapp",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "@vant/weapp@1.0.0",
+    "name": "@vant/weapp",
+    "escapedName": "@vant%2fweapp",
+    "scope": "@vant",
+    "rawSpec": "1.0.0",
+    "saveSpec": null,
+    "fetchSpec": "1.0.0"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "http://registry.npm.qima-inc.com/@vant/weapp/download/@vant/weapp-1.0.0.tgz",
+  "_spec": "1.0.0",
+  "_where": "/Users/chensen/Workspace/youzan/vant-weapp-demo",
+  "author": {
+    "name": "youzan"
+  },
+  "browserslist": [
+    "Chrome >= 53",
+    "ChromeAndroid >= 53",
+    "iOS >= 8"
+  ],
+  "bugs": {
+    "url": "https://github.com/youzan/vant-weapp/issues"
+  },
+  "description": "轻量、可靠的小程序 UI 组件库",
+  "devDependencies": {
+    "@babel/core": "^7.5.5",
+    "@babel/plugin-syntax-dynamic-import": "^7.2.0",
+    "@babel/preset-env": "^7.5.5",
+    "@vant/cli": "^1.0.3",
+    "@vant/doc": "^2.5.5",
+    "@vant/eslint-config": "^1.2.4",
+    "@vant/icons": "1.1.15",
+    "@vant/markdown-loader": "^2.3.0",
+    "@vant/stylelint-config": "^1.0.0",
+    "autoprefixer": "^9.6.1",
+    "babel-loader": "8.0.6",
+    "cross-env": "^5.1.4",
+    "css-loader": "^3.2.0",
+    "cssnano": "^4.1.10",
+    "eslint": "^6.1.0",
+    "gh-pages": "^2.0.1",
+    "gulp": "^4.0.2",
+    "gulp-insert": "^0.5.0",
+    "gulp-less": "^4.0.1",
+    "gulp-postcss": "^8.0.0",
+    "gulp-rename": "^1.2.2",
+    "html-webpack-plugin": "^3.2.0",
+    "less": "^3.9.0",
+    "less-loader": "^5.0.0",
+    "lint-staged": "^9.2.5",
+    "miniprogram-api-typings": "2.7.7-2",
+    "postcss-loader": "^3.0.0",
+    "progress-bar-webpack-plugin": "^1.11.0",
+    "style-loader": "^1.0.0",
+    "stylelint": "^11.1.1",
+    "typescript": "^3.5.3",
+    "vue": "2.6.10",
+    "vue-loader": "^15.7.1",
+    "vue-router": "^3.1.1",
+    "vue-template-compiler": "2.6.10",
+    "webpack": "^4.39.1",
+    "webpack-cli": "^3.3.6",
+    "webpack-serve": "^2.0.3"
+  },
+  "files": [
+    "dist",
+    "lib"
+  ],
+  "homepage": "https://github.com/youzan/vant-weapp#readme",
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged",
+      "commit-msg": "vant commit-lint"
+    }
+  },
+  "license": "MIT",
+  "lint-staged": {
+    "*.{ts,js}": [
+      "eslint",
+      "git add"
+    ],
+    "*.{css,less}": [
+      "stylelint",
+      "git add"
+    ]
+  },
+  "miniprogram": "dist",
+  "name": "@vant/weapp",
+  "prettier": {
+    "singleQuote": true
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/youzan/vant-weapp.git"
+  },
+  "scripts": {
+    "build:changelog": "vant changelog --tag v0.5.10 ./docs/markdown/changelog.generated.md",
+    "build:lib": "yarn && npx gulp -f build/compiler.js --series buildEs buildLib",
+    "dev": "node build/dev.js",
+    "lint": "eslint ./packages --ext .js,.ts && stylelint \"packages/**/*.less\" --fix",
+    "release": "sh build/release.sh",
+    "release:site": "sh build/release-site.sh"
+  },
+  "version": "1.0.0"
+}
