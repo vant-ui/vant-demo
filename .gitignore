@@ -5,3 +5,4 @@
 .vscode
 node_modules
 yarn.lock
+@vant

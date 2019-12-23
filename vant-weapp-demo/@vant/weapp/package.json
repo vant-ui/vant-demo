@@ -2,7 +2,7 @@
   "_args": [
     [
       "@vant/weapp@1.0.0",
-      "/Users/chensen/Workspace/youzan/vant-weapp-demo"
+      "/Users/chensen/Workspace/youzan/vant-demo/vant-weapp-demo"
     ]
   ],
   "_from": "@vant/weapp@1.0.0",
@@ -27,7 +27,7 @@
   ],
   "_resolved": "http://registry.npm.qima-inc.com/@vant/weapp/download/@vant/weapp-1.0.0.tgz",
   "_spec": "1.0.0",
-  "_where": "/Users/chensen/Workspace/youzan/vant-weapp-demo",
+  "_where": "/Users/chensen/Workspace/youzan/vant-demo/vant-weapp-demo",
   "author": {
     "name": "youzan"
   },
