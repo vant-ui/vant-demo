@@ -1,0 +1,28 @@
+.card-goods {
+  padding: 10px 0;
+  background-color: #fff;
+}
+
+.card-goods__item {
+  position: relative;
+  background-color: #fafafa;
+}
+
+.card-goods__item .van-checkbox__label {
+  width: 100%;
+  height: auto;
+  padding: 0 10px 0 15px;
+  box-sizing: border-box;
+}
+
+.card-goods__item .van-checkbox__icon {
+  top: 50%;
+  left: 10px;
+  z-index: 1;
+  position: absolute;
+  margin-top: -10px;
+}
+
+.card-goods__item .van-card__price {
+  color: #f44;
+}
