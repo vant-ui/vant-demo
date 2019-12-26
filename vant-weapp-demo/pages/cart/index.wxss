@@ -6,6 +6,7 @@
 .card-goods__item {
   position: relative;
   background-color: #fafafa;
+  --checkbox-checked-icon-color: #ee0a24;
 }
 
 .card-goods__item .van-checkbox__label {
