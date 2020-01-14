@@ -1,0 +1,22 @@
+{
+  "name": "vant-nuxt-demo",
+  "version": "1.0.0",
+  "description": "Vant nuxt demo project",
+  "author": "chenjiahan",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "nuxt": "^2.0.0",
+    "vant": "^2.4.0"
+  },
+  "devDependencies": {
+    "babel-plugin-import": "^1.13.0",
+    "less": "^3.10.3",
+    "less-loader": "^5.0.0"
+  }
+}

@@ -45,6 +45,12 @@ theme 工程在 base 工程的基础上增加了自定义主题色的配置。
 
 > 技术栈：Vue、Vue Cli、Vue Router、Vant、TypeScript
 
+### nuxt
+
+基于 nuxt 的示例工程。
+
+> 技术栈：Vue、Nuxt、Vant
+
 ## 预览
 
 <img src="https://img.yzcdn.cn/public_files/2017/11/16/4b7eb956ba7d30d374a2310124bdb5fe.png" alt="demos" width="600" />
