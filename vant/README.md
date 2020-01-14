@@ -43,7 +43,7 @@ theme 工程在 base 工程的基础上增加了自定义主题色的配置。
 
 基于 typescript 的工程，使用 ts-import-plugin 实现组件按需引入。
 
-> 技术栈：Vue、Vue Cli、Vue Router、Vant、TypeScript
+> 技术栈：Vue、Vue Cli、Vant、TypeScript
 
 ### nuxt
 
