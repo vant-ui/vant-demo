@@ -1,6 +1,4 @@
-# nuxt
-
-> Vant nuxt demo project
+# Vant Nuxt Demo
 
 ## Build Setup
 
