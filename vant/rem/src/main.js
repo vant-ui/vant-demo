@@ -1,2 +1,2 @@
 import 'amfe-flexible';
-import '../../../base/src/main';
+import '../../base/src/main';
