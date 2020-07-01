@@ -10,7 +10,7 @@ module.exports = {
         plugins: [
           autoprefixer(),
           pxtorem({
-            rootValue: 75,
+            rootValue: 37.5,
             propList: ['*']
           })
         ]
