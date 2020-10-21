@@ -1,5 +1,4 @@
 export default {
-  mode: 'universal',
   head: {
     title: 'Vant Nuxt Demo',
     meta: [
