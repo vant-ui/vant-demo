@@ -1,6 +1,6 @@
 # Vant 示例
 
-本目录下包含基于 Vue Cli 搭建 Vant 的相关示例，其中 cdn 和 base 目录为基础用法示例，其余目录为进阶配置的示例。
+本目录下包含基于 Vue Cli 搭建 Vant 的相关示例，其中 cdn、vue2、vue3 目录为基础用法示例，其余目录为进阶配置的示例。
 
 ## 目录
 
@@ -10,9 +10,9 @@ cdn 目录下包含了通过 CDN 引入 Vant 的示例，在浏览器内打开 c
 
 > 技术栈：Vue 2、Vant 2
 
-### base
+### vue2
 
-base 工程示范了如何用 Vant 搭建几个简单的电商页面，包含如下功能：
+vue2 目录示范了如何用 Vue 2 和 Vant 2 搭建几个简单的电商页面，包含如下功能：
 
 - 基于 Vant 搭建
 - 基于 vue-router 的单页面应用
@@ -21,9 +21,9 @@ base 工程示范了如何用 Vant 搭建几个简单的电商页面，包含如
 
 > 技术栈：Vue 2、Vant 2、Vue Cli、Vue Router
 
-### vue 3
+### vue3
 
-vue 3 工程示范了如何用 Vue 3 和 Vant 3 搭建工程。
+vue3 目录示范了如何用 Vue 3 和 Vant 3 搭建工程。
 
 > 技术栈：Vue 3、Vant 3、Vue Cli
 
