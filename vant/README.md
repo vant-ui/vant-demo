@@ -8,7 +8,7 @@
 
 cdn 目录下包含了通过 CDN 引入 Vant 的示例，在浏览器内打开 cdn/index.html 即可查看效果。
 
-> 技术栈：Vue、Vant
+> 技术栈：Vue 2、Vant 2
 
 ### base
 
@@ -19,37 +19,43 @@ base 工程示范了如何用 Vant 搭建几个简单的电商页面，包含如
 - 组件按需引入
 - 视图异步加载
 
-> 技术栈：Vue、Vue Cli、Vue Router、Vant
+> 技术栈：Vue 2、Vant 2、Vue Cli、Vue Router
+
+### vue 3
+
+vue 3 工程示范了如何用 Vue 3 和 Vant 3 搭建工程。
+
+> 技术栈：Vue 3、Vant 3、Vue Cli
 
 ### rem
 
 rem 工程在 base 工程的基础上增加了移动端 rem 适配的配置。
 
-> 技术栈：Vue、Vue Cli、Vue Router、Vant
+> 技术栈：Vue 2、Vant 2、Vue Cli、Vue Router
 
 ### viewport
 
 viewport 工程在 base 工程的基础上增加了移动端 vw/vh 适配的配置。
 
-> 技术栈：Vue、Vue Cli、Vue Router、Vant
+> 技术栈：Vue 2、Vant 2、Vue Cli、Vue Router
 
 ### theme
 
 theme 工程在 base 工程的基础上增加了自定义主题色的配置。
 
-> 技术栈：Vue、Vue Cli、Vue Router、Vant
+> 技术栈：Vue 2、Vant 2、Vue Cli、Vue Router
 
 ### typescript
 
 基于 typescript 的工程，使用 ts-import-plugin 实现组件按需引入。
 
-> 技术栈：Vue、Vue Cli、Vant、TypeScript
+> 技术栈：Vue 2、Vant 2、Vue Cli、TypeScript
 
 ### nuxt
 
 基于 nuxt 的示例工程。
 
-> 技术栈：Vue、Nuxt、Vant
+> 技术栈：Vue 2、Vant 2、Nuxt
 
 ## 预览
 
