@@ -27,6 +27,12 @@ vue3 目录示范了如何用 Vue 3 和 Vant 3 搭建工程。
 
 > 技术栈：Vue 3、Vant 3、Vue Cli
 
+### vite
+
+vite 目录示范了如果用 Vite 搭建工程。
+
+> 技术栈：Vue 3、Vant 3、Vite
+
 ### rem
 
 rem 工程在 base 工程的基础上增加了移动端 rem 适配的配置。
