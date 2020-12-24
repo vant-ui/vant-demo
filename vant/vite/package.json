@@ -6,7 +6,7 @@
     "build": "vite build"
   },
   "dependencies": {
-    "vant": "^3.0.0-rc.1",
+    "vant": "^3.0.0",
     "vue": "^3.0.4"
   },
   "devDependencies": {
