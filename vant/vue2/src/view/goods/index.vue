@@ -19,7 +19,7 @@
 
     <van-cell-group class="goods-cell-group">
       <van-cell value="进入店铺" icon="shop-o" is-link @click="sorry">
-        <template slot="title">
+        <template #title>
           <span class="van-cell-text">有赞的店</span>
           <van-tag class="goods-tag" type="danger">官方</van-tag>
         </template>
