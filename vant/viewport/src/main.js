@@ -1,1 +1,1 @@
-import '../../base/src/main';
+import '../../vue2/src/main';
