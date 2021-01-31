@@ -6,13 +6,13 @@
 
 ### cdn
 
-cdn 目录下包含了通过 CDN 引入 Vant 的示例，在浏览器内打开 cdn/index.html 即可查看效果。
+`cdn` 目录下包含了通过 CDN 引入 Vant 的示例，在浏览器内打开 `cdn/index.html` 文件即可查看效果。
 
 > 技术栈：Vue 2、Vant 2
 
 ### vue2
 
-vue2 目录示范了如何用 Vue 2 和 Vant 2 搭建几个简单的电商页面，包含如下功能：
+`vue2` 目录示范了如何用 Vue 2 和 Vant 2 搭建几个简单的电商页面，包含如下功能：
 
 - 基于 Vant 搭建
 - 基于 vue-router 的单页面应用
@@ -23,43 +23,49 @@ vue2 目录示范了如何用 Vue 2 和 Vant 2 搭建几个简单的电商页面
 
 ### vue3
 
-vue3 目录示范了如何用 Vue 3 和 Vant 3 搭建工程。
+`vue3` 目录示范了如何用 Vue 3 和 Vant 3 搭建工程。
 
 > 技术栈：Vue 3、Vant 3、Vue Cli
 
 ### vite
 
-vite 目录示范了如果用 Vite 搭建工程。
+`vite` 目录示范了如何用 `Vite` 搭建工程。
 
 > 技术栈：Vue 3、Vant 3、Vite
 
 ### rem
 
-rem 工程在 base 工程的基础上增加了移动端 rem 适配的配置。
+`rem` 工程在 `vue2` 工程的基础上增加了移动端 rem 适配的配置。
 
 > 技术栈：Vue 2、Vant 2、Vue Cli、Vue Router
 
 ### viewport
 
-viewport 工程在 base 工程的基础上增加了移动端 vw/vh 适配的配置。
+`viewport` 工程在 `vue2` 工程的基础上增加了移动端 vw/vh 适配的配置。
 
 > 技术栈：Vue 2、Vant 2、Vue Cli、Vue Router
 
-### theme
+### vue-cli-theme
 
-theme 工程在 base 工程的基础上增加了自定义主题色的配置。
+`vue-cli-theme` 工程在 `vue2` 工程的基础上增加了自定义主题色的配置。
 
 > 技术栈：Vue 2、Vant 2、Vue Cli、Vue Router
+
+### vite-theme
+
+`vite-theme` 工程在 `vite` 工程的基础上增加了自定义主题色的配置。
+
+> 技术栈：Vue 2、Vant 2、Vite
 
 ### typescript
 
-基于 typescript 的工程，使用 ts-import-plugin 实现组件按需引入。
+基于 `typescript` 的工程，使用 `ts-import-plugin` 实现组件按需引入。
 
 > 技术栈：Vue 2、Vant 2、Vue Cli、TypeScript
 
 ### nuxt
 
-基于 nuxt 的示例工程。
+基于 `nuxt` 的示例工程。
 
 > 技术栈：Vue 2、Vant 2、Nuxt
 
