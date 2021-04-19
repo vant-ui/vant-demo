@@ -26,7 +26,7 @@
     "eslint-plugin-vue": "^6.0.1",
     "less": "^3.8.1",
     "less-loader": "^5.0.0",
-    "postcss-pxtorem": "^4.0.1",
+    "postcss-pxtorem": "^5.0.0",
     "vue-template-compiler": "^2.6.10"
   },
   "eslintConfig": {
