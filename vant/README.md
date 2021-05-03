@@ -57,6 +57,12 @@
 
 > 技术栈：Vue 3、Vant 3、Vite
 
+### vite-theme
+
+`vite-theme` 工程在 `vite` 工程的基础上增加了自定义主题色的配置。
+
+> 技术栈：Vue 3、Vant 3、Vite
+
 ### nuxt
 
 基于 `nuxt` 的示例工程。
