@@ -63,11 +63,17 @@
 
 > 技术栈：Vue 3、Vant 3、Vite
 
-### nuxt
+### nuxt2
 
-基于 `nuxt` 的示例工程。
+基于 `nuxt 2` 的示例工程。
 
-> 技术栈：Vue 2、Vant 2、Nuxt
+> 技术栈：Vue 2、Vant 2、Nuxt 2
+
+### nuxt3
+
+基于 `nuxt 3` 的示例工程。
+
+> 技术栈：Vue 3、Vant 3、Nuxt 3
 
 ## 预览
 
