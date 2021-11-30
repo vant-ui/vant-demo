@@ -10,6 +10,6 @@
     "nuxt3": "latest"
   },
   "dependencies": {
-    "vant": "3.3.3-beta.nuxt3"
+    "vant": "3.3.3"
   }
 }
