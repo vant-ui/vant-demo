@@ -63,6 +63,8 @@ import {
   ActionBarButton
 } from 'vant';
 
+import 'vant/es/toast/style';
+
 export default {
   components: {
     [Tag.name]: Tag,
