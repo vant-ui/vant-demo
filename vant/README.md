@@ -27,6 +27,12 @@
 
 > 技术栈：Vue 3、Vant 3、Vue Cli
 
+### vue3-ts
+
+`vue3-ts` 目录示范了如何用 Vue 3 + ts 和 Vant 3 搭建工程。
+
+> 技术栈：Vue 3、Vant 3、vite、ts、pnpm
+
 ### rem
 
 `rem` 工程在 `vue2` 工程的基础上增加了移动端 rem 适配的配置。
