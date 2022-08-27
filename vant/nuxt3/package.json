@@ -7,9 +7,9 @@
   },
   "devDependencies": {
     "less": "^4.1.2",
-    "nuxt": "3.0.0-rc.3"
+    "nuxt": "3.0.0-rc.8"
   },
   "dependencies": {
-    "vant": "3.5.0"
+    "vant": "3.6.1"
   }
 }
