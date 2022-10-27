@@ -50,21 +50,9 @@
 </template>
 
 <script lang="ts" setup>
-import { reactive, ref } from 'vue'
+import { reactive } from 'vue'
 import router from '@/router'
-import {
-  Tag,
-  Col,
-  Icon,
-  Cell,
-  CellGroup,
-  Swipe,
-  Toast,
-  SwipeItem,
-  ActionBar,
-  ActionBarIcon,
-  ActionBarButton
-} from 'vant'
+import { Toast } from 'vant'
 
 import type { IGoods } from '@/types'
 

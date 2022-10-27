@@ -35,9 +35,7 @@
   </div>
 </template>
 
-<script lang="ts" setup>
-import { Row, Col, Icon, Cell, CellGroup } from 'vant'
-</script>
+<script lang="ts" setup></script>
 
 <style lang="scss">
 .user {

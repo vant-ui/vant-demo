@@ -27,7 +27,7 @@
 
 <script lang="ts" setup>
 import { computed, ref } from 'vue'
-import { Checkbox, CheckboxGroup, Card, SubmitBar, Toast } from 'vant'
+import { Toast } from 'vant'
 
 import type { CardGoods } from '@/types'
 
