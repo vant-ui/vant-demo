@@ -45,12 +45,6 @@
 
 > 技术栈：Vue 2、Vant 2、Vue Cli、Vue Router
 
-### vue-cli-theme
-
-`vue-cli-theme` 工程在 `vue2` 工程的基础上增加了自定义主题色的配置。
-
-> 技术栈：Vue 2、Vant 2、Vue Cli、Vue Router
-
 ### typescript
 
 基于 `typescript` 的工程，使用 `ts-import-plugin` 实现组件按需引入。
@@ -60,12 +54,6 @@
 ### vite
 
 `vite` 目录示范了如何用 `Vite` 搭建工程。
-
-> 技术栈：Vue 3、Vant 3、Vite
-
-### vite-theme
-
-`vite-theme` 工程在 `vite` 工程的基础上增加了自定义主题色的配置。
 
 > 技术栈：Vue 3、Vant 3、Vite
 
