@@ -8,18 +8,19 @@
 
 `cdn` 目录下包含了通过 CDN 引入 Vant 的示例，在浏览器内打开 `cdn/index.html` 文件即可查看效果。
 
-> 技术栈：Vue 2、Vant 2
+> 技术栈：Vue 3、Vant 3
 
-### vue2
+### vite (推荐)
 
-`vue2` 目录示范了如何用 Vue 2 和 Vant 2 搭建几个简单的电商页面，包含如下功能：
+`vite` 目录示范了如何用 `Vite` 搭建工程。
 
-- 基于 Vant 搭建
-- 基于 vue-router 的单页面应用
-- 组件按需引入
-- 视图异步加载
+> 技术栈：Vue 3、Vant 4、Vite
 
-> 技术栈：Vue 2、Vant 2、Vue Cli、Vue Router
+### nuxt3 (推荐)
+
+基于 `nuxt 3` 的示例工程。
+
+> 技术栈：Vue 3、Vant 4、Nuxt 3
 
 ### vue3
 
@@ -32,6 +33,21 @@
 `vue3-ts` 目录示范了如何用 Vue 3 + ts 和 Vant 3 搭建工程。
 
 > 技术栈：Vue 3、Vant 3、vite、ts、pnpm
+
+## 废弃
+
+下面是一些基于 Vue 2 的旧版 demo，仅供参考。
+
+### vue2
+
+`vue2` 目录示范了如何用 Vue 2 和 Vant 2 搭建几个简单的电商页面，包含如下功能：
+
+- 基于 Vant 搭建
+- 基于 vue-router 的单页面应用
+- 组件按需引入
+- 视图异步加载
+
+> 技术栈：Vue 2、Vant 2、Vue Cli、Vue Router
 
 ### rem
 
@@ -51,23 +67,11 @@
 
 > 技术栈：Vue 2、Vant 2、Vue Cli、TypeScript
 
-### vite
-
-`vite` 目录示范了如何用 `Vite` 搭建工程。
-
-> 技术栈：Vue 3、Vant 3、Vite
-
 ### nuxt2
 
 基于 `nuxt 2` 的示例工程。
 
 > 技术栈：Vue 2、Vant 2、Nuxt 2
-
-### nuxt3
-
-基于 `nuxt 3` 的示例工程。
-
-> 技术栈：Vue 3、Vant 3、Nuxt 3
 
 ## 预览
 
