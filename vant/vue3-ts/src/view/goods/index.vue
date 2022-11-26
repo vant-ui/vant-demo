@@ -8,23 +8,37 @@
 
     <van-cell-group>
       <van-cell>
-        <div class="goods-title">{{ goods.title }}</div>
-        <div class="goods-price">{{ formatPrice() }}</div>
+        <template #title>
+          <div class="goods-title">{{ goods.title }}</div>
+          <div class="goods-price">{{ formatPrice() }}</div>
+        </template>
       </van-cell>
       <van-cell class="goods-express">
-        <van-col span="10">运费：{{ goods.express }}</van-col>
-        <van-col span="14">剩余：{{ goods.remain }}</van-col>
+        <template #title>
+          <van-col span="10">运费：{{ goods.express }}</van-col>
+          <van-col span="14">剩余：{{ goods.remain }}</van-col>
+        </template>
       </van-cell>
     </van-cell-group>
 
     <van-cell-group class="goods-cell-group">
-      <van-cell value="进入店铺" icon="shop-o" is-link @click="sorry('进入店铺~')">
+      <van-cell
+        value="进入店铺"
+        icon="shop-o"
+        is-link
+        @click="sorry('进入店铺~')"
+      >
         <template #title>
           <span class="van-cell-text">有赞的店</span>
           <van-tag class="goods-tag" type="danger">官方</van-tag>
         </template>
       </van-cell>
-      <van-cell title="线下门店" icon="location-o" is-link @click="sorry('线下门店~')" />
+      <van-cell
+        title="线下门店"
+        icon="location-o"
+        is-link
+        @click="sorry('线下门店~')"
+      />
       <van-cell title="会员中心" icon="user-o" is-link @click="onClickMember" />
     </van-cell-group>
 
@@ -50,11 +64,11 @@
 </template>
 
 <script lang="ts" setup>
-import { reactive } from 'vue'
-import router from '@/router'
-import { Toast } from 'vant'
+import { reactive } from 'vue';
+import router from '@/router';
+import { showToast } from 'vant';
 
-import type { IGoods } from '@/types'
+import type { IGoods } from '@/types';
 
 const goods = reactive<IGoods>({
   title: '美国伽力果（约680g/3个）',
@@ -63,25 +77,25 @@ const goods = reactive<IGoods>({
   remain: 19,
   thumb: [
     'https://img.yzcdn.cn/public_files/2017/10/24/e5a5a02309a41f9f5def56684808d9ae.jpeg',
-    'https://img.yzcdn.cn/public_files/2017/10/24/1791ba14088f9c2be8c610d0a6cc0f93.jpeg'
-  ]
-})
+    'https://img.yzcdn.cn/public_files/2017/10/24/1791ba14088f9c2be8c610d0a6cc0f93.jpeg',
+  ],
+});
 
 const formatPrice = () => {
-  return '¥' + (goods.price / 100).toFixed(2)
-}
+  return '¥' + (goods.price / 100).toFixed(2);
+};
 
 const onClickMember = () => {
-  router.push('user')
-}
+  router.push('user');
+};
 
 const onClickCart = () => {
-  router.push('cart')
-}
+  router.push('cart');
+};
 
 const sorry = (text: string = '暂无后续逻辑~') => {
-  Toast(text)
-}
+  showToast(text);
+};
 </script>
 
 <style lang="scss">

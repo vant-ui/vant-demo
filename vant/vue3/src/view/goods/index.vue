@@ -8,12 +8,16 @@
 
     <van-cell-group>
       <van-cell>
-        <div class="goods-title">{{ goods.title }}</div>
-        <div class="goods-price">{{ formatPrice(goods.price) }}</div>
+        <template #title>
+          <div class="goods-title">{{ goods.title }}</div>
+          <div class="goods-price">{{ formatPrice(goods.price) }}</div>
+        </template>
       </van-cell>
       <van-cell class="goods-express">
-        <van-col span="10">运费：{{ goods.express }}</van-col>
-        <van-col span="14">剩余：{{ goods.remain }}</van-col>
+        <template #title>
+          <van-col span="10">运费：{{ goods.express }}</van-col>
+          <van-col span="14">剩余：{{ goods.remain }}</van-col>
+        </template>
       </van-cell>
     </van-cell-group>
 
@@ -49,36 +53,10 @@
 </template>
 
 <script>
-import {
-  Tag,
-  Col,
-  Icon,
-  Cell,
-  CellGroup,
-  Swipe,
-  Toast,
-  SwipeItem,
-  ActionBar,
-  ActionBarIcon,
-  ActionBarButton
-} from 'vant';
-
+import { showToast } from 'vant';
 import 'vant/es/toast/style';
 
 export default {
-  components: {
-    [Tag.name]: Tag,
-    [Col.name]: Col,
-    [Icon.name]: Icon,
-    [Cell.name]: Cell,
-    [CellGroup.name]: CellGroup,
-    [Swipe.name]: Swipe,
-    [SwipeItem.name]: SwipeItem,
-    [ActionBar.name]: ActionBar,
-    [ActionBarIcon.name]: ActionBarIcon,
-    [ActionBarButton.name]: ActionBarButton,
-  },
-
   data() {
     return {
       goods: {
@@ -104,7 +82,7 @@ export default {
     },
 
     sorry() {
-      Toast('暂无后续逻辑~');
+      showToast('暂无后续逻辑~');
     },
   },
 };

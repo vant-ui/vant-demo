@@ -9,7 +9,7 @@
   },
   "dependencies": {
     "core-js": "^3.6.5",
-    "vant": "^3.5.0",
+    "vant": "^4.0.0",
     "vue": "^3.0.0",
     "vue-router": "^4.0.0"
   },
