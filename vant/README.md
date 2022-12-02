@@ -24,15 +24,15 @@
 
 ### vue3
 
-`vue3` 目录示范了如何用 Vue 3 和 Vant 3 搭建工程。
+`vue3` 目录示范了如何用 Vue 3 和 Vant 4 搭建工程。
 
-> 技术栈：Vue 3、Vant 3、Vue Cli
+> 技术栈：Vue 3、Vant 4、Vue Cli
 
 ### vue3-ts
 
-`vue3-ts` 目录示范了如何用 Vue 3 + ts 和 Vant 3 搭建工程。
+`vue3-ts` 目录示范了如何用 Vue 3 + ts 和 Vant 4 搭建工程。
 
-> 技术栈：Vue 3、Vant 3、vite、ts、pnpm
+> 技术栈：Vue 3、Vant 4、vite、ts、pnpm
 
 ## 废弃
 
