@@ -1,6 +1,4 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
-  experimental: {
-    externalVue: true,
-  },
+  modules: ['@vant/nuxt'],
 });
