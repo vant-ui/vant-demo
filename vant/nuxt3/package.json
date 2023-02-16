@@ -12,6 +12,7 @@
     "nuxt": "^3.2.0"
   },
   "dependencies": {
+    "@vant/nuxt": "^1.0.0",
     "vant": "^4.0.0"
   }
 }
