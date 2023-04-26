@@ -18,6 +18,9 @@ Vant 官方示例合集，包含了 Vant、Vant Weapp 和 Vant Cli 相关的示�
 ├── vant-weapp          # Vant Weapp 相关示例
 │   └── base            使用 Vant Weapp 搭建小程序
 │
+├── react-weapp         # React Vant 相关示例
+│   └── modern-js       使用 React Vant、Modern.js、Rspack 搭建应用
+│
 └── vant-cli            # Vant Cli 相关示例
     └── base            使用 Vant Cli 搭建组件库
 ```
