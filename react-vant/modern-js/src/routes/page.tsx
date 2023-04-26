@@ -1,89 +1,51 @@
-import { Helmet } from '@modern-js/runtime/head';
-import './index.css';
+import { Flex, CellGroup, Cell } from 'react-vant';
+import {
+  Records,
+  Tosend,
+  Logistics,
+  PendingPayment,
+  Points,
+  GoldCoinO,
+  GiftO,
+} from '@react-vant/icons';
+import './index.scss';
 
 const Index = () => (
   <div className="container-box">
-    <Helmet>
-      <link
-        rel="icon"
-        type="image/x-icon"
-        href="https://lf3-static.bytednsdoc.com/obj/eden-cn/uhbfnupenuhf/favicon.ico"
-      />
-    </Helmet>
     <main>
-      <div className="title">
-        Welcome to
+      <div>
         <img
-          className="logo"
-          src="https://lf3-static.bytednsdoc.com/obj/eden-cn/zq-uylkvT/ljhwZthlaukjlkulzlp/modern-js-logo.svg"
-          alt="Modern.js Logo"
+          className="user-poster"
+          src="https://img.yzcdn.cn/public_files/2017/10/23/8690bb321356070e0b8c4404d087f8fd.png"
         />
-        <p className="name">Modern.js</p>
-      </div>
-      <p className="description">
-        Get started by editing <code className="code">src/routes/page.tsx</code>
-      </p>
-      <div className="grid">
-        <a
-          href="https://modernjs.dev/guides/get-started/introduction.html"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="card"
-        >
-          <h2>
-            Guide
-            <img
-              className="arrow-right"
-              src="https://lf3-static.bytednsdoc.com/obj/eden-cn/zq-uylkvT/ljhwZthlaukjlkulzlp/arrow-right.svg"
-            />
-          </h2>
-          <p>Follow the guides to use all features of Modern.js.</p>
-        </a>
-        <a
-          href="https://modernjs.dev/tutorials/foundations/introduction.html"
-          target="_blank"
-          className="card"
-          rel="noreferrer"
-        >
-          <h2>
-            Tutorials
-            <img
-              className="arrow-right"
-              src="https://lf3-static.bytednsdoc.com/obj/eden-cn/zq-uylkvT/ljhwZthlaukjlkulzlp/arrow-right.svg"
-            />
-          </h2>
-          <p>Learn to use Modern.js to create your first application.</p>
-        </a>
-        <a
-          href="https://modernjs.dev/configure/app/usage.html"
-          target="_blank"
-          className="card"
-          rel="noreferrer"
-        >
-          <h2>
-            Config
-            <img
-              className="arrow-right"
-              src="https://lf3-static.bytednsdoc.com/obj/eden-cn/zq-uylkvT/ljhwZthlaukjlkulzlp/arrow-right.svg"
-            />
-          </h2>
-          <p>Find all configuration items provided by Modern.js.</p>
-        </a>
-        <a
-          href="https://github.com/web-infra-dev/modern.js"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="card"
-        >
-          <h2>
-            Github
-            <img
-              className="arrow-right"
-              src="https://lf3-static.bytednsdoc.com/obj/eden-cn/zq-uylkvT/ljhwZthlaukjlkulzlp/arrow-right.svg"
-            />
-          </h2>
-          <p>View the source code of Github, feel free to contribute.</p>
-        </a>
+        <Flex className="user-links">
+          <Flex.Item span="6">
+            <PendingPayment />
+            待付款
+          </Flex.Item>
+          <Flex.Item span="6">
+            <Records />
+            待接单
+          </Flex.Item>
+          <Flex.Item span="6">
+            <Tosend />
+            待发货
+          </Flex.Item>
+          <Flex.Item span="6">
+            <Logistics />
+            已发货
+          </Flex.Item>
+        </Flex>
+
+        <CellGroup className="user-group">
+          <Cell icon={<Records />} title="全部订单" isLink />
+        </CellGroup>
+
+        <CellGroup>
+          <Cell icon={<Points />} title="我的积分" isLink />
+          <Cell icon={<GoldCoinO />} title="我的优惠券" isLink />
+          <Cell icon={<GiftO />} title="我收到的礼物" isLink />
+        </CellGroup>
       </div>
     </main>
   </div>
