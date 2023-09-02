@@ -1,6 +1,31 @@
 # Vant Demo
 
-Vant 官方示例合集，包含了 Vant、Vant Weapp 和 Vant Cli 相关的示例，详细内容请打开各目录查看。
+[English](./README.md) | 简体中文
+
+当前仓库是 Vant 官方的示例仓库，包含 Vant、Vant Weapp 和 Vant Cli 相关的示例。
+
+## 如何使用
+
+1. 首先，克隆当前仓库到你的本地：
+
+```bash
+git clone git@github.com:vant-ui/vant-demo.git
+```
+
+2. 然后选择你需要的示例，比如 Vite 项目示例：
+
+```bash
+cd vant/vite
+```
+
+3. 通过 `npm` 或其他包管理器安装依赖，即可启动项目：
+
+```bash
+npm i
+npm run dev
+```
+
+4. 你可以 Fork 一份当前项目，也可以直接从当前项目拷贝代码来使用。
 
 ## 目录结构
 
