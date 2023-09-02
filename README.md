@@ -43,7 +43,7 @@ npm run dev
 ├── vant-weapp          # Examples related to Vant Weapp
 │   └── base            Building mini-programs using Vant Weapp
 │
-├── react-weapp         # Examples related to React Vant
+├── react-vant          # Examples related to React Vant
 │   └── modern-js       Building applications using React Vant, Modern.js, and Rspack
 │
 └── vant-cli            # Examples related to Vant Cli
