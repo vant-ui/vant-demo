@@ -1,51 +1,51 @@
 # Vant Demo
 
-[English](./README.md) | 简体中文
+English | [简体中文](./README.zh-CN.md)
 
-当前仓库是 Vant 官方的示例仓库，包含 Vant、Vant Weapp 和 Vant Cli 相关的示例。
+The current repository is the official example repository for Vant, which includes examples related to Vant, Vant Weapp, and Vant Cli.
 
-## 如何使用
+## How to Use
 
-1. 首先，克隆当前仓库到你的本地：
+1. First, clone the current repository to your local:
 
 ```bash
 git clone git@github.com:vant-ui/vant-demo.git
 ```
 
-2. 然后选择你需要的示例，比如 Vite 项目示例：
+2. Then, choose the example you need, such as the Vite project example:
 
 ```bash
 cd vant/vite
 ```
 
-3. 通过 `npm` 或其他包管理器安装依赖，即可启动项目：
+3. Install the dependencies using `npm` or other package managers, and start the project:
 
 ```bash
 npm i
 npm run dev
 ```
 
-4. 你可以 Fork 一份当前项目，也可以直接从当前项目拷贝代码来使用。
+4. You can fork the current project or directly copy the code from the current project to use.
 
-## 目录结构
+## Directory Structure
 
 ```bash
-├── vant                # Vant 相关示例
-│   ├── vite            使用 Vue 3、Vant 4、Vite 搭建应用
-│   ├── nuxt3           使用 Nuxt 3、Vant 4 搭建应用
-│   ├── vue3            使用 Vue 3、Vant 4、Vue Cli 搭建应用
-│   ├── vue3-ts         使用 Vue 3、Vant 4、ts、vite、pnpm 搭建应用
-│   ├── cdn             通过 CDN 引入 Vant
-│   ├── rem             配置 rem 适配
-│   ├── viewport        配置 viewport 配置
-│   └── typescript      配置 typescript 按需引入
+├── vant                # Examples related to Vant
+│   ├── vite            Building applications using Vue 3, Vant 4, and Vite
+│   ├── nuxt3           Building applications using Nuxt 3 and Vant 4
+│   ├── vue3            Building applications using Vue 3, Vant 4, and Vue Cli
+│   ├── vue3-ts         Building applications using Vue 3, Vant 4, TypeScript, Vite, and Pnpm
+│   ├── cdn             Importing Vant through CDN
+│   ├── rem             Configuring rem adaptation
+│   ├── viewport        Configuring viewport settings
+│   └── typescript      Configuring TypeScript and importing on demand
 │
-├── vant-weapp          # Vant Weapp 相关示例
-│   └── base            使用 Vant Weapp 搭建小程序
+├── vant-weapp          # Examples related to Vant Weapp
+│   └── base            Building mini-programs using Vant Weapp
 │
-├── react-weapp         # React Vant 相关示例
-│   └── modern-js       使用 React Vant、Modern.js、Rspack 搭建应用
+├── react-weapp         # Examples related to React Vant
+│   └── modern-js       Building applications using React Vant, Modern.js, and Rspack
 │
-└── vant-cli            # Vant Cli 相关示例
-    └── base            使用 Vant Cli 搭建组件库
+└── vant-cli            # Examples related to Vant Cli
+    └── base            Building component libraries using Vant Cli
 ```
