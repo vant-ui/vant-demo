@@ -12,9 +12,9 @@
   },
   "devDependencies": {
     "@vant/auto-import-resolver": "^1.0.1",
-    "@vitejs/plugin-vue": "^3.2.0",
+    "@vitejs/plugin-vue": "^4.3.4",
     "less": "^4.1.3",
     "unplugin-vue-components": "^0.25.2",
-    "vite": "^3.2.4"
+    "vite": "^4.4.9"
   }
 }
