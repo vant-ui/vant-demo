@@ -17,7 +17,7 @@
     "@vitejs/plugin-vue": "^3.0.0",
     "sass": "^1.54.4",
     "typescript": "^4.6.4",
-    "unplugin-vue-components": "^0.22.4",
+    "unplugin-vue-components": "^0.25.2",
     "vite": "^3.0.0",
     "vue-router": "4",
     "vue-tsc": "^0.38.4"
