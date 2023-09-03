@@ -19,7 +19,7 @@ module.exports = {
     links: [
       {
         logo: 'https://b.yzcdn.cn/vant/logo/github.svg',
-        url: 'https://github.com/youzan/vant-demo'
+        url: 'https://github.com/vant-ui/vant-demo'
       }
     ],
     // 左侧导航
