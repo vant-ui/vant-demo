@@ -31,6 +31,7 @@ npm run dev
 
 ```bash
 ├── vant                # Examples related to Vant
+│   ├── rsbuild         Building applications using Vue 3, Vant 4, and Rsbuild
 │   ├── vite            Building applications using Vue 3, Vant 4, and Vite
 │   ├── nuxt3           Building applications using Nuxt 3 and Vant 4
 │   ├── vue3            Building applications using Vue 3, Vant 4, and Vue Cli
