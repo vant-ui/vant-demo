@@ -31,6 +31,7 @@ npm run dev
 
 ```bash
 ├── vant                # Vant 相关示例
+│   ├── rsbuild         使用 Vue 3、Vant 4、Rsbuild 搭建应用
 │   ├── vite            使用 Vue 3、Vant 4、Vite 搭建应用
 │   ├── nuxt3           使用 Nuxt 3、Vant 4 搭建应用
 │   ├── vue3            使用 Vue 3、Vant 4、Vue Cli 搭建应用
