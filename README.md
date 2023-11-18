@@ -44,6 +44,7 @@ npm run dev
 │   └── base            Building mini-programs using Vant Weapp
 │
 ├── react-vant          # Examples related to React Vant
+│   └── rsbuild         Building applications using React Vant and Rsbuild
 │   └── modern-js       Building applications using React Vant, Modern.js, and Rspack
 │
 └── vant-cli            # Examples related to Vant Cli
