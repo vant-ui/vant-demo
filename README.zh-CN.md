@@ -44,6 +44,7 @@ npm run dev
 │   └── base            使用 Vant Weapp 搭建小程序
 │
 ├── react-vant          # React Vant 相关示例
+│   └── rsbuild         使用 React Vant 和 Rsbuild 搭建应用
 │   └── modern-js       使用 React Vant、Modern.js、Rspack 搭建应用
 │
 └── vant-cli            # Vant Cli 相关示例
