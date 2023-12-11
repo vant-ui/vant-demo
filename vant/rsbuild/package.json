@@ -13,8 +13,8 @@
   },
   "devDependencies": {
     "@vant/auto-import-resolver": "^1.0.1",
-    "@rsbuild/core": "^0.1.0",
-    "@rsbuild/plugin-vue": "^0.1.0",
+    "@rsbuild/core": "^0.2.0",
+    "@rsbuild/plugin-vue": "^0.2.0",
     "unplugin-vue-components": "^0.25.2",
     "typescript": "^5.2.2"
   }
