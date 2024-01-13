@@ -1,65 +1,60 @@
 <template>
   <div class="goods">
-    <Swipe class="goods-swipe" :autoplay="3000">
-      <SwipeItem v-for="thumb in goods.thumb" :key="thumb">
+    <van-swipe class="goods-swipe" :autoplay="3000">
+      <van-swipe-item v-for="thumb in goods.thumb" :key="thumb">
         <img :src="thumb" />
-      </SwipeItem>
-    </Swipe>
+      </van-swipe-item>
+    </van-swipe>
 
-    <CellGroup>
-      <Cell>
+    <van-cell-group>
+      <van-cell>
         <template #title>
           <div class="goods-title">{{ goods.title }}</div>
           <div class="goods-price">{{ formatPrice(goods.price) }}</div>
         </template>
-      </Cell>
-      <Cell class="goods-express">
+      </van-cell>
+      <van-cell class="goods-express">
         <template #title>
-          <Col span="10">运费：{{ goods.express }}</Col>
-          <Col span="14">剩余：{{ goods.remain }}</Col>
+          <van-col span="10">运费：{{ goods.express }}</van-col>
+          <van-col span="14">剩余：{{ goods.remain }}</van-col>
         </template>
-      </Cell>
-    </CellGroup>
+      </van-cell>
+    </van-cell-group>
 
-    <CellGroup class="goods-CellGroup">
-      <Cell value="进入店铺" icon="shop-o" is-link @click="sorry">
+    <van-cell-group class="goods-cell-group">
+      <van-cell value="进入店铺" icon="shop-o" is-link @click="sorry">
         <template #title>
-          <span class="cell-text">有赞的店</span>
-          <Tag class="goods-tag" type="danger">官方</Tag>
+          <span class="van-cell-text">有赞的店</span>
+          <van-tag class="goods-tag" type="danger">官方</van-tag>
         </template>
-      </Cell>
-      <Cell title="线下门店" icon="location-o" is-link @click="sorry" />
-    </CellGroup>
+      </van-cell>
+      <van-cell title="线下门店" icon="location-o" is-link @click="sorry" />
+    </van-cell-group>
 
-    <CellGroup class="goods-cell-group">
-      <Cell title="查看商品详情" is-link @click="sorry" />
-    </CellGroup>
+    <van-cell-group class="goods-cell-group">
+      <van-cell title="查看商品详情" is-link @click="sorry" />
+    </van-cell-group>
 
-    <ActionBar>
-      <ActionBarIcon icon="chat-o" @click="sorry">客服</ActionBarIcon>
-      <ActionBarIcon icon="cart-o" @click="onClickCart">购物车</ActionBarIcon>
-      <ActionBarButton type="warning" @click="sorry">
+    <van-action-bar>
+      <van-action-bar-icon icon="chat-o" @click="sorry">
+        客服
+      </van-action-bar-icon>
+      <van-action-bar-icon icon="cart-o" @click="onClickCart">
+        购物车
+      </van-action-bar-icon>
+      <van-action-bar-button type="warning" @click="sorry">
         加入购物车
-      </ActionBarButton>
-      <ActionBarButton type="danger" @click="sorry">立即购买</ActionBarButton>
-    </ActionBar>
+      </van-action-bar-button>
+      <van-action-bar-button type="danger" @click="sorry">
+        立即购买
+      </van-action-bar-button>
+    </van-action-bar>
   </div>
 </template>
 
 <script setup lang="ts">
 import { ref } from "vue";
 import { showToast } from "vant";
-import {
-  Col,
-  Tag,
-  Cell,
-  CellGroup,
-  Swipe,
-  SwipeItem,
-  ActionBar,
-  ActionBarIcon,
-  ActionBarButton,
-} from "vant";
 
 const goods = ref({
   title: "美国伽力果213（约680g/3个）",
