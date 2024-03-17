@@ -79,7 +79,7 @@ export default {
     },
 
     sorry() {
-      Toast("暂无后续逻辑~");
+      showToast("暂无后续逻辑~");
     },
   },
 };
