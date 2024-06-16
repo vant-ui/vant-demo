@@ -10,13 +10,19 @@
 
 > 技术栈：Vue 3、Vant 3
 
-### vite (推荐)
+### rsbuild (推荐)
+
+`rsbuild` 目录示范了如何用 [Rsbuild](https://github.com/web-infra-dev/rsbuild) 搭建工程。
+
+> 技术栈：Vue 3、Vant 4、Rsbuild
+
+### vite
 
 `vite` 目录示范了如何用 `Vite` 搭建工程。
 
 > 技术栈：Vue 3、Vant 4、Vite
 
-### nuxt3 (推荐)
+### nuxt3
 
 基于 `nuxt 3` 的示例工程。
 
@@ -60,18 +66,6 @@
 `viewport` 工程在 `vue2` 工程的基础上增加了移动端 vw/vh 适配的配置。
 
 > 技术栈：Vue 2、Vant 2、Vue Cli、Vue Router
-
-### typescript
-
-基于 `typescript` 的工程，使用 `ts-import-plugin` 实现组件按需引入。
-
-> 技术栈：Vue 2、Vant 2、Vue Cli、TypeScript
-
-### nuxt2
-
-基于 `nuxt 2` 的示例工程。
-
-> 技术栈：Vue 2、Vant 2、Nuxt 2
 
 ## 预览
 
