@@ -38,15 +38,13 @@ npm run dev
 │   ├── vue3-ts         使用 Vue 3、Vant 4、TS、Vite 搭建应用
 │   ├── cdn             通过 CDN 引入 Vant
 │   ├── rem             配置 rem 适配
-│   ├── viewport        配置 viewport 配置
-│   └── typescript      配置 typescript 按需引入
+│   └── viewport        配置 viewport 配置
 │
 ├── vant-weapp          # Vant Weapp 相关示例
 │   └── base            使用 Vant Weapp 搭建小程序
 │
 ├── react-vant          # React Vant 相关示例
 │   └── rsbuild         使用 React Vant 和 Rsbuild 搭建应用
-│   └── modern-js       使用 React Vant、Modern.js、Rspack 搭建应用
 │
 └── vant-cli            # Vant Cli 相关示例
     └── base            使用 Vant Cli 搭建组件库
