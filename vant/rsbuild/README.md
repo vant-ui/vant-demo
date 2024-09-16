@@ -1,5 +1,7 @@
 # Rsbuild Project
 
+https://github.com/web-infra-dev/rsbuild
+
 ## Setup
 
 Install the dependencies:
