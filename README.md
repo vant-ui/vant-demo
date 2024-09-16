@@ -12,7 +12,7 @@ The current repository is the official example repository for Vant, which includ
 git clone git@github.com:vant-ui/vant-demo.git
 ```
 
-2. Then, choose the example you need, such as the Rsbuild project example:
+2. Then, choose the example you need, such as the [Rsbuild](https://github.com/web-infra-dev/rsbuild) project example:
 
 ```bash
 cd vant/rsbuild

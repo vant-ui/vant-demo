@@ -12,7 +12,7 @@
 git clone git@github.com:vant-ui/vant-demo.git
 ```
 
-2. 然后选择你需要的示例，比如 Rsbuild 项目示例：
+2. 然后选择你需要的示例，比如 [Rsbuild](https://github.com/web-infra-dev/rsbuild) 项目示例：
 
 ```bash
 cd vant/rsbuild
