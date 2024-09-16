@@ -12,10 +12,10 @@
 git clone git@github.com:vant-ui/vant-demo.git
 ```
 
-2. 然后选择你需要的示例，比如 Vite 项目示例：
+2. 然后选择你需要的示例，比如 Rsbuild 项目示例：
 
 ```bash
-cd vant/vite
+cd vant/rsbuild
 ```
 
 3. 通过 `npm` 或其他包管理器安装依赖，即可启动项目：

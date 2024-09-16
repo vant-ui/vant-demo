@@ -12,10 +12,10 @@ The current repository is the official example repository for Vant, which includ
 git clone git@github.com:vant-ui/vant-demo.git
 ```
 
-2. Then, choose the example you need, such as the Vite project example:
+2. Then, choose the example you need, such as the Rsbuild project example:
 
 ```bash
-cd vant/vite
+cd vant/rsbuild
 ```
 
 3. Install the dependencies using `npm` or other package managers, and start the project:
