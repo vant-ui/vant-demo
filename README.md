@@ -34,7 +34,6 @@ npm run dev
 │   ├── rsbuild         Building applications using Vue 3, Vant 4, and Rsbuild
 │   ├── vite            Building applications using Vue 3, Vant 4, and Vite
 │   ├── nuxt3           Building applications using Nuxt 3 and Vant 4
-│   ├── vue3            Building applications using Vue 3, Vant 4, and Vue Cli
 │   ├── vue3-ts         Building applications using Vue 3, Vant 4, TypeScript, Vite
 │   ├── cdn             Importing Vant through CDN
 │   ├── rem             Configuring rem adaptation

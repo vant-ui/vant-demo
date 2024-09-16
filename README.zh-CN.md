@@ -34,7 +34,6 @@ npm run dev
 │   ├── rsbuild         使用 Vue 3、Vant 4、Rsbuild 搭建应用
 │   ├── vite            使用 Vue 3、Vant 4、Vite 搭建应用
 │   ├── nuxt3           使用 Nuxt 3、Vant 4 搭建应用
-│   ├── vue3            使用 Vue 3、Vant 4、Vue Cli 搭建应用
 │   ├── vue3-ts         使用 Vue 3、Vant 4、TS、Vite 搭建应用
 │   ├── cdn             通过 CDN 引入 Vant
 │   ├── rem             配置 rem 适配
